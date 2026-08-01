@@ -1,7 +1,27 @@
 aid: plink
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/plink.png
 name: Plink
-description: Plink is a company surfaced as a portfolio company of bullpen-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Plink is a personalized commerce and card-linking platform that turns
+  everyday payment transactions into intelligent, permission-based savings and engagement
+  experiences for banks, merchants, and consumers. Its technology enriches transactions
+  in real time, applying business rules and automated actions across payments, digital
+  banking, and customer engagement, and exposes an API that lets any payment network
+  make its transactions "smart" while keeping consumers anonymous. Plink says it has
+  personalized over 700 million transactions and reaches 350+ banks, hundreds of thousands
+  of merchants, and 10+ million consumers through an invitation-only network. The
+  company operates a merchant/business portal and a consumer savings program (Fancoins)
+  built on a PCI-compliant, tokenized card-linking structure.
 url: https://raw.githubusercontent.com/api-evangelist/plink/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Payments
+- Card Linking
+- Personalization
+- Commerce
+- Rewards
+- Banking
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,23 @@ maintainers:
 common:
 - type: Website
   url: https://www.plink.ai
+- type: Portal
+  name: Plink Business Portal
+  url: https://business.plink.ai/
+- type: SignUp
+  name: Plink Consumer Enrollment
+  url: https://go.plink.at/welcome
+- type: Support
+  name: Plink FAQ
+  url: https://www.plink.ai/faq
+- type: TermsOfService
+  url: https://www.plink.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.plink.ai/privacy-policy
+- type: DomainSecurity
+  url: security/plink-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
